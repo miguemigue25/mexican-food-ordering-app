@@ -49,7 +49,7 @@ export default function Header() {
     <header>
       <div className="flex items-center md:hidden justify-between">
         <Link className="text-primary font-semibold text-2xl" href={"/"}>
-          TWIN&apos;S PIZZA
+          FILIROBERTACOS&apos;S MEXICAN RESTAURANT
         </Link>
         <div className="flex gap-8 items-center">
           <Link href={'/cart'} className="relative">
@@ -79,13 +79,15 @@ export default function Header() {
       )}
       <div className="hidden md:flex items-center justify-between">
         <nav className="flex items-center gap-8 text-gray-500 font-semibold">
-          <Link className="text-primary font-semibold text-2xl" href={"/"}>
-            TWIN&apos;S PIZZA
+          <Link className="text-green-700 font-semibold text-2xl" href={"/"}>
+            FILIROBERTACOS&apos;<br /> 
+            MEXICAN<br />
+            RESTAURANT
           </Link>
-          <Link href={"/"}>Home</Link>
-          <Link href={"/menu"}>Menu</Link>
-          <Link href={"/#about"}>About</Link>
-          <Link href={"/#contact"}>Contact</Link>
+          <Link className="text-black" href={"/"}>Home</Link>
+          <Link className="text-black" href={"/menu"}>Menu</Link>
+          <Link className="text-black" href={"/#about"}>About</Link>
+          <Link className="text-black" href={"/#contact"}>Contact</Link>
         </nav>
         <nav className="flex items-center gap-4 text-gray-500 font-semibold">
           <AuthLinks status={status} userName={userName} />

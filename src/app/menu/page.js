@@ -2,6 +2,7 @@
 import SectionHeaders from "@/components/layout/SectionHeaders";
 import MenuItem from "@/components/menu/Menuitem";
 // import MenuItem from "@/components/menu/MenuItem";
+// import MenuItem from "@/components/menu/MenuItem";
 import { useEffect, useState } from "react";
 
 
@@ -37,3 +38,4 @@ export default function MenuPage() {
         </section>
     );
 }
+
